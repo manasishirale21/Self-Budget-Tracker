@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="16dp"
+
+    android:orientation="vertical"
+    android:elevation="2dp">
+
+    <!-- First line with date, type, and amount -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/date_txt_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 June 2018"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="25dp"
+            android:layout_height="1dp"/>
+
+        <!-- Type container to align with Note -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Type -->
+            <TextView
+                android:id="@+id/type_txt_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+            <!-- Note -->
+            <TextView
+                android:id="@+id/note_txt_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Flexible spacer to push amount to the right -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <!-- Amount -->
+        <TextView
+            android:id="@+id/amount_txt_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="600000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</LinearLayout>

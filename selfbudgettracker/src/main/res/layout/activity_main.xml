@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple_gradient_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="EXPENSE TRACKER"
+        android:textStyle="bold"
+        android:textSize="90px"
+        android:gravity="center"
+        android:textColor="#FFC107"
+        android:background="#673AB7"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="184dp"
+        android:layout_x="94dp"
+        android:layout_y="92dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="313dp"
+        android:gravity="center"
+        android:text="Welcome To Expense Tracker "
+        android:textColor="#5409DA"
+        android:textSize="90px"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/id_login"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="483dp"
+        android:background="@color/dark_text"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/id_register"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="560dp"
+        android:background="@color/dark_text"
+        android:text="REGISTER" />
+
+
+
+</AbsoluteLayout>

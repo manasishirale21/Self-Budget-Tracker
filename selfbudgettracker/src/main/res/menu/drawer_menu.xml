@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="🏠 Dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:iconTint="@color/nav_icon_dashboard"/>
+
+        <item
+            android:id="@+id/nav_income"
+            android:title="👤 Income"
+            android:icon="@drawable/ic_profile"
+            android:iconTint="@color/nav_icon_profile"/>
+
+        <item
+        android:id="@+id/nav_expense"
+        android:title="🚪 Expense"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/nav_icon_logout"/>
+
+</menu>
